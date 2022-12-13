@@ -1,0 +1,72 @@
+.conteiner {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 50px 25px 50px 25px;
+}
+
+.team__tex {
+    display: flex;
+    flex-direction: column;
+}
+
+.team__title {
+    color: #86bb46 !important;
+    font-weight: bold;
+}
+
+.team__title__presentation {
+    margin-top: 20px;
+    font-size: 34px;
+    word-break: break-word;
+}
+
+.team__description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-break: break-word;
+}
+
+.team__carousel {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team__carousel-slide {
+margin: 0;
+padding: 15px;
+display: flex;
+    flex-direction: column;
+}
+
+.card__img {
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.card__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.card__experience {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+
+}
+
+@media (min-width: 414px) {}
+
+@media (min-width: 850px) {}
