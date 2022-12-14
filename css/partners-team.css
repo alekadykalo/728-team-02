@@ -35,9 +35,9 @@
 }
 
 .team__carousel-slide {
-margin: 0;
-padding: 15px;
-display: flex;
+    margin: 0;
+    padding: 15px;
+    display: flex;
     flex-direction: column;
 }
 
@@ -50,8 +50,8 @@ display: flex;
 .card__title {
     margin-top: 20px;
     margin-bottom: 10px;
-
 }
+
 .card__experience {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -62,9 +62,15 @@ display: flex;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     text-align: center;
-    
+}
 
+.btn__link {
+    margin: 5px;
+    padding: auto;
+    background-color: #86bb46;
+    cursor: pointer;
 }
 
 @media (min-width: 414px) {}
