@@ -89,14 +89,14 @@
             flex-direction: row;
             justify-content: center;
         }
+    }
 
-        @media (min-width: 414px) {
-            .team__carousel-slide {
-                margin-top: 0px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-
-            }
+    @media (min-width: 414px) {
+        .team__carousel-slide {
+            margin-top: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
         }
+    }
