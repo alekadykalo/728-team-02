@@ -80,7 +80,7 @@
         grid-template-columns: 1fr 1fr;
         justify-content: center;
     }
-
+}
     @media (min-width: 850px) {
         .team__carousel {
             margin-top: 40px;
