@@ -28,3 +28,7 @@ img {
     margin: auto;
 }
 
+p {
+    color: #66698c;
+    font-size: inherit;
+}
