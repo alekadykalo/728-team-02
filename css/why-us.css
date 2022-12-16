@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik:wght@500&display=swap');
+
+.whyus__offers {
+padding: 50px 0px;
+box-sizing: border-box;
+}
+
+.whyus {
+    margin:0px 0px 0px 0px;
+    padding: 0px 100px 20px 100px;
+    color: #86bb46!important; 
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+    line-height: 21.84px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+}
+
+#why-greenwind {
+    font-family: Rubik, sans-serif;
+    font-size: 34px;    
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 40.8px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    color: rgb(40, 40,58);
+}
