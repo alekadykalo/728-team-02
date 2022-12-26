@@ -2,14 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik:wght@500&display=swap');
 
 .whyus__offers {
-padding: 50px 0px;
-box-sizing: border-box;
+  padding: 110px;
+  display: block;
+  box-sizing: border-box;
+  background-color: #F8FAFB;
 }
 
 .whyus {
     margin:0px 0px 0px 0px;
     padding: 0px 100px 20px 100px;
-    color: #86bb46!important; 
+    color: #86bb46; 
     font-family: Lato, sans-serif;
     font-style: normal;
     font-size: 12px;
@@ -32,4 +34,71 @@ box-sizing: border-box;
     text-transform: none;
     vertical-align: baseline;
     color: rgb(40, 40,58);
+}
+
+.whyus__subtitle {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 31.35px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    color: rgb(102, 105, 140);
+}
+.whyus__container {
+  display:flex;
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+}
+
+.whyus__carousel-slide {
+  padding: 20px;
+  margin: 10px;
+  flex-grow:1;
+  box-sizing: border-box; 
+  border-radius: 5px;
+  border-style: none;
+  border-width: 2px;
+  background-color: #FFFFFF;
+}
+
+.whyus__carousel-slide img {
+  max-width: 100%;
+}
+
+.whyus__carousel-slide h3 {
+   font-family: Rubik, sans-serif;
+    font-size: 22px;    
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 31.46px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    color: rgb(40, 40,58);
+}
+
+.slide__description {
+   font-family: Lato, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 28.9px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    color: rgb (102, 105, 140);
+}
+
+.slide__image {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
