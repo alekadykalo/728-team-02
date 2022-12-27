@@ -1,4 +1,5 @@
 .button {
+	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	color: rgb(89, 90, 113);
@@ -8,5 +9,14 @@
 	padding: 10px 20px;
 	display: inline-block;
 	border-radius: 5px;
-	border: 2px solid rgb(134, 187, 70);;
+	border: 2px solid rgb(134, 187, 70);
+	letter-spacing: 0.24;
+	transition: 0.5s;
+}
+
+.button:hover {
+	font-family: 'Rubik', sans-serif;
+	color: #ffffff;
+	background-color: rgb(134, 187, 70);
+	transition: 0.5s;
 }

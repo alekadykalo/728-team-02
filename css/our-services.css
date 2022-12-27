@@ -9,17 +9,16 @@
 .our-services__highligh-text {
     font-family: 'Rubik', sans-serif;
     color: #28283A;
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 34px;
+    font-weight: 700;
     text-align: left;
 }
 
-.our-services__text,
 .our-services__list-item {
     color: #66698C;
     font-size: 17px;
     font-weight: 400;
-    font-style: normal;
+
 }
 
 .our-services__title {
@@ -27,8 +26,7 @@
 }
 
 .our-services__highligh-text {
-    font-size: 34px;
-    font-weight: 700;
+
 }
 
 .our-services__image-container {
