@@ -24,6 +24,7 @@
 }
 
 .whyus__upperttitle {
+  padding-top: 20px;
     font-family: Rubik, sans-serif;
     font-size: 34px;    
     font-style: normal;
@@ -37,7 +38,7 @@
 }
 
 .whyus__subtitle {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 50px;
     font-family: Lato, sans-serif;
     font-style: normal;
@@ -91,7 +92,8 @@
 }
 
 .slide__title {
-   font-family: Rubik, sans-serif;
+    padding-top: 15px;
+    font-family: Rubik, sans-serif;
     font-size: 22px;    
     font-style: normal;
     font-weight: 700;
@@ -105,14 +107,15 @@
 
 
 .slide__description {
+   padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-   font-family: Lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-style: normal;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: normal;
-    line-height: 28.9px;
+    line-height: 26.9px;
     text-align: center;
     text-transform: none;
     vertical-align: baseline;
