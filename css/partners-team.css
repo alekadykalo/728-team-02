@@ -22,16 +22,9 @@
 }
 
 .team__description {
-<<<<<<< HEAD
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    word-break: break-word;
-=======
 	margin-top: 20px;
 	margin-bottom: 20px;
 	word-break: break-word;
->>>>>>> f53ddf14c256236622a999600176d9c521c46496
 }
 
 .team__carousel {
@@ -88,7 +81,6 @@
 		justify-content: center;
 	}
 }
-<<<<<<< HEAD
 
 @media (min-width: 850px) {
     .team__carousel {
@@ -143,25 +135,4 @@
         'wght' 400,
         'GRAD' 0,
         'opsz' 48
-=======
-
-@media (min-width: 850px) {
-	.team__carousel {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-}
-
-@media (min-width: 414px) {
-	.team__carousel-slide {
-		margin-top: 0px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-	}
->>>>>>> f53ddf14c256236622a999600176d9c521c46496
 }
