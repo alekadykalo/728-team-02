@@ -125,10 +125,10 @@
 .pre-btn,
 .nxt-btn {
   border: none;
-  width: 10vw;
+  width: 2vw;
   height: 100%;
   position: absolute;
-  top: 111px;
+  top: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
