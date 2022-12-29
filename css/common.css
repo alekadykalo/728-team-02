@@ -57,7 +57,6 @@ p {
 .title {
 	color: #28283a;
 	font-size: 44px;
-
 	font-family: Rubik, sans-serif;
 	font-weight: 700;
 	text-transform: none;
@@ -70,5 +69,14 @@ p {
 	text-align: center;
 	vertical-align: baseline;
 	word-break: break-word;
+}
 
+.subtitle {
+	font-size: 19px;
+	text-align: center;
+	word-break: break-word;
+	text-transform: none;
+	vertical-align: baseline;
+	letter-spacing: normal;
+	font-style: normal;
 }
