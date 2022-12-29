@@ -8,20 +8,6 @@
   background-color: #F8FAFB;
 }
 
-.whyus {
-    margin:0px 0px 0px 0px;
-    padding: 0px 100px 0px 100px;
-    color: #86bb46; 
-    font-family: Lato, sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.36px;
-    line-height: 21.84px;
-    text-align: center;
-    text-transform: none;
-    vertical-align: baseline;
-}
 
 .whyus__upperttitle {
   padding-top: 20px;
@@ -107,12 +93,12 @@
 
 
 .slide__description {
-   padding-top: 20px;
+    padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
     font-family: Lato, sans-serif;
     font-style: normal;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     letter-spacing: normal;
     line-height: 26.9px;
