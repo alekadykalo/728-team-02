@@ -2,38 +2,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-    font-family: 'Lato', sans-serif;
-    --main-text-color: black;
-    --bg-color: #ffffff;
-    scroll-behavior: smooth;
+	font-family: 'Lato', sans-serif;
+	--main-text-color: black;
+	--bg-color: #ffffff;
+	scroll-behavior: smooth;
 }
 
-h2, h3 {
-    font-family: 'Rubik', sans-serif;
+h2,
+h3 {
+	font-family: 'Rubik', sans-serif;
 }
 
 img {
-    display: block;
-    width: 100%;
+	display: block;
+	width: 100%;
 }
 
 .container {
-    max-width: 980px;
-    margin: auto;
+	max-width: 980px;
+	margin: auto;
 }
 
 p {
-    color: #66698c;
-    line-height: 28.9px;
-    font-family: 'Lato', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    text-align: left;
-    font-style: normal;
+	color: #66698c;
+	line-height: 28.9px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: left;
+	font-style: normal;
+}
+
+.upper-title {
+	color: #86bb46;
+	margin: 0px;
+	padding: 0px 100px 0px 100px;
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.36px;
+	line-height: 21.84px;
+	text-align: center;
+	text-transform: none;
+	vertical-align: baseline;
 }
