@@ -53,3 +53,22 @@ p {
 	text-transform: none;
 	vertical-align: baseline;
 }
+
+.title {
+	color: #28283a;
+	font-size: 44px;
+
+	font-family: Rubik, sans-serif;
+	font-weight: 700;
+	text-transform: none;
+	text-decoration: none;
+	font-style: normal;
+	text-align: center;
+	margin: 25px 0px 25px 0px;
+	letter-spacing: normal;
+	line-height: 1.2;
+	text-align: center;
+	vertical-align: baseline;
+	word-break: break-word;
+
+}
