@@ -45,11 +45,30 @@ p {
 	padding: 0px 100px 0px 100px;
 	font-family: Lato, sans-serif;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 0.36px;
 	line-height: 21.84px;
 	text-align: center;
 	text-transform: none;
 	vertical-align: baseline;
+}
+
+.title {
+	color: #28283a;
+	font-size: 44px;
+
+	font-family: Rubik, sans-serif;
+	font-weight: 700;
+	text-transform: none;
+	text-decoration: none;
+	font-style: normal;
+	text-align: center;
+	margin: 25px 0px 25px 0px;
+	letter-spacing: normal;
+	line-height: 1.2;
+	text-align: center;
+	vertical-align: baseline;
+	word-break: break-word;
+
 }
