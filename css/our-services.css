@@ -14,10 +14,15 @@
     text-align: left;
 }
 
+.our-services__list {
+    list-style-type: none;
+}
+
 .our-services__list-item {
     color: #66698C;
     font-size: 17px;
     font-weight: 400;
+    text-decoration: none;
 
 }
 
@@ -31,4 +36,14 @@
 
 .our-services__image-container {
     max-width: 570px;
+}
+
+.list-checkmark {
+    width: 24px;
+    display: inline;
+    padding-right: 20px;
+}
+
+.our-services {
+    margin-left: 20px;
 }
