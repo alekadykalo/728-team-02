@@ -14,11 +14,18 @@
     color: #66698C;
     font-size: 17px;
     font-weight: 400;
+    padding: 10px 0;
 
 }
 
 .our-services__title {
     text-transform: uppercase;
+    padding: 0;
+    text-align: left;
+}
+
+.our-services__title-lower {
+    text-align: left;
 }
 
 .our-services__image-container {
