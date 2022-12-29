@@ -8,18 +8,21 @@
 .team__tex {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .team__title__presentation {
 	margin-top: 20px;
 	font-size: 34px;
 	word-break: break-word;
+	text-align: center;
 }
 
 .team__description {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	word-break: break-word;
+	text-align: center;
 }
 
 .team__carousel {
@@ -50,6 +53,7 @@
 
 .card__experience {
 	margin-top: 20px;
+	text-align: center;
 }
 
 .btn {
