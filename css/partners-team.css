@@ -99,10 +99,10 @@
 	border: none;
 	margin: auto;
 	padding: 0 2px 0 2px;
-	width: 5vw;
+	width: 2vw;
 	height: 100%;
 	position: absolute;
-	top: 0;
+	top: 110px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -129,11 +129,12 @@
 	opacity: 1;
 }
 
-.partners__carousel {
+.partners__carousel{
 	display: flex;
 	flex-direction: row;
 	transition-duration: .2s;
 	transform: translateX(-500px);
+	overflow: hidden;
 }
 
 .partners__carousel-img {
