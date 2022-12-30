@@ -1,5 +1,6 @@
 .our-services__list {
     list-style-type: none;
+    padding: 0;
 }
 
 .our-services__list-item {
