@@ -1,0 +1,49 @@
+.slide {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: #f8fafb;
+	box-sizing: border-box;
+	margin-right: 480px;
+	margin-left: 480px;
+}
+
+.slide__description {
+	letter-spacing: normal;
+	text-align: center;
+	word-wrap: break-word;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+.testimonials__title {
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+
+.testimonials__image {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border-radius: 50%;
+}
+
+.slide__date {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.slide__position {
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 70px;
+}

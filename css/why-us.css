@@ -57,20 +57,6 @@
 	padding-top: 0px;
 }
 
-.slide__title {
-	padding-top: 15px;
-	font-family: Rubik, sans-serif;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 700;
-	letter-spacing: 0;
-	line-height: 20px;
-	text-align: center;
-	text-transform: none;
-	vertical-align: baseline;
-	color: rgb(40, 40, 58);
-}
-
 
 .slide__description {
 	padding-top: 20px;

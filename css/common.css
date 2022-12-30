@@ -80,3 +80,17 @@ p {
 	letter-spacing: normal;
 	font-style: normal;
 }
+
+.slide__title {
+	padding-top: 15px;
+	font-family: Rubik, sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 20px;
+	text-align: center;
+	text-transform: none;
+	vertical-align: baseline;
+	margin-top: 20px;
+}
