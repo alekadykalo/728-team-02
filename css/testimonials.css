@@ -1,28 +1,23 @@
 .slide {
-	margin: 0;
-	padding: 0;
-	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
 	background: #f8fafb;
 	box-sizing: border-box;
-	margin-right: 480px;
-	margin-left: 480px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .slide__description {
-	letter-spacing: normal;
 	text-align: center;
-	word-wrap: break-word;
-	margin-right: 70px;
-	margin-left: 70px;
+	margin: auto;
 }
 
 .testimonials__title {
 	margin-bottom: 25px;
 	margin-top: 15px;
 }
-
 
 .testimonials__image {
 	width: 120px;
@@ -47,3 +42,5 @@
 	font-size: 16px;
 	padding-bottom: 70px;
 }
+
+
