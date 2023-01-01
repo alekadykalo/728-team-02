@@ -53,7 +53,7 @@
 
 .btn__link {
 	margin: 0 5px 0 5px;
-	padding: 0 5px 0 5px ;
+	padding: 0 5px 0 5px;
 	background-color: #86bb46;
 	cursor: pointer;
 }
@@ -129,7 +129,7 @@
 	opacity: 1;
 }
 
-.partners__carousel{
+.partners__carousel {
 	display: flex;
 	flex-direction: row;
 	transition-duration: .2s;
