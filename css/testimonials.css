@@ -1,4 +1,4 @@
-.slide {
+.testimonials__carousel-slide {
 	font-size: 100%;
 	background: #f8fafb;
 	box-sizing: border-box;
@@ -9,7 +9,7 @@
 	align-items: center;
 }
 
-.slide__description {
+.testimonials__description {
 	text-align: center;
 	margin: auto;
 }
@@ -31,16 +31,14 @@
 	border-radius: 50%;
 }
 
-.slide__date {
+.testimonials__date {
 	text-align: center;
 	font-weight: bold;
 	font-size: 16px;
 }
 
-.slide__position {
+.testimonials__position {
 	text-align: center;
 	font-size: 16px;
 	padding-bottom: 70px;
 }
-
-

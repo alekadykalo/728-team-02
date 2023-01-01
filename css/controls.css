@@ -10,7 +10,7 @@
 	display: inline-block;
 	border-radius: 5px;
 	border: 2px solid rgb(134, 187, 70);
-	letter-spacing: 0.24;
+	letter-spacing: 0.24px;
 	transition: 0.5s;
 }
 
@@ -20,4 +20,3 @@
 	background-color: rgb(134, 187, 70);
 	transition: 0.5s;
 }
-

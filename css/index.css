@@ -1,25 +1,22 @@
 @import url(common.css);
 @import url(controls.css);
 @import url(header.css);
-@import url(footer.css);
 @import url(cutting-edge-solutions.css);
 @import url(our-services.css);
 @import url(why-us.css);
 @import url(about-us.css);
 @import url(partners-team.css);
+@import url(https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css);
 @import url(testimonials.css);
 @import url(pricing.css);
-
+@import url(footer.css);
 /*
-common.css - Team Lead
-controls.css - Team Lead
-header.css - Team Lead
-footer.css - Team Lead
-cutting-edge-solutions.css - Denys Dorosh
-our-services.css - Sergii Iasko
-why-us.css - Mariana Ivantsiv
-about-us.css - Zhachko Oleksandr
-partners-team.css - Iryna Ivanova
-testimonials.css - Kadykalo Alessandro
-pricing.css - Tanya Kobzar
+common.css controls.css header.css footer.css | Team Lead
+cutting-edge-solutions.css                    | Denys Dorosh
+our-services.css                              | Sergii Iasko
+why-us.css                                    | Mariana Ivantsiv
+about-us.css                                  | Zhachko Oleksandr
+partners-team.css                             | Iryna Ivanova
+testimonials.css                              | Alessandro Kadykalo
+pricing.css                                   | Tanya Kobzar
 */

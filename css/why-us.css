@@ -71,11 +71,9 @@
 	text-align: center;
 	text-transform: none;
 	vertical-align: baseline;
-	color: rgb (102, 105, 140);
 }
 
-.pre-btn,
-.nxt-btn {
+.pre-btn , .nxt-btn {
 	border: none;
 	width: 2vw;
 	height: 100%;
