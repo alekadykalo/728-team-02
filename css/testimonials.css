@@ -1,22 +1,19 @@
-.testimonials__carousel-slide {
-	font-size: 100%;
-	background: #f8fafb;
-	box-sizing: border-box;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.testimonials__title {
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.testimonials__subtitle {
+	margin-bottom: 70px;
 }
 
 .testimonials__description {
 	text-align: center;
 	margin: auto;
-}
-
-.testimonials__title {
-	margin-bottom: 25px;
-	margin-top: 15px;
+	padding: 20px 35px 0px 35px;
+	flex-grow: 1;
+	max-height: 310px;
+	overflow: hidden;
 }
 
 .testimonials__image {
@@ -26,7 +23,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	border-radius: 50%;
 }
@@ -40,5 +37,36 @@
 .testimonials__position {
 	text-align: center;
 	font-size: 16px;
-	padding-bottom: 70px;
+
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+	max-width: 1040px;
+	--swiper-theme-color: grey;
+	margin-bottom: 100px;
+}
+
+.swiper-wrapper {
+	height: 600px;
+	padding-bottom: 40px;
+}
+
+.swiper-slide {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #f8fafb;
+	padding: 20px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 10px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: -10px;
 }

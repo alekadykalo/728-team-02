@@ -36,7 +36,6 @@ p {
 	font-size: 17px;
 	font-weight: 400;
 	text-align: left;
-	font-style: normal;
 }
 
 .upper-title {
@@ -44,14 +43,12 @@ p {
 	margin: 0px;
 	padding: 0px 100px 0px 100px;
 	font-family: Lato, sans-serif;
-	font-style: normal;
 	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 0.36px;
 	line-height: 21.84px;
 	text-align: center;
 	text-transform: none;
-	vertical-align: baseline;
 }
 
 .title {
@@ -61,13 +58,10 @@ p {
 	font-weight: 700;
 	text-transform: none;
 	text-decoration: none;
-	font-style: normal;
 	text-align: center;
 	margin: 25px 0px 25px 0px;
-	letter-spacing: normal;
 	line-height: 1.2;
 	text-align: center;
-	vertical-align: baseline;
 	word-break: break-word;
 }
 
@@ -76,21 +70,16 @@ p {
 	text-align: center;
 	word-break: break-word;
 	text-transform: none;
-	vertical-align: baseline;
-	letter-spacing: normal;
-	font-style: normal;
 }
 
 .slide__title {
 	padding-top: 15px;
 	font-family: Rubik, sans-serif;
 	font-size: 23px;
-	font-style: normal;
 	font-weight: 700;
 	letter-spacing: 0;
 	line-height: 20px;
 	text-align: center;
 	text-transform: none;
-	vertical-align: baseline;
 	margin-top: 20px;
 }
