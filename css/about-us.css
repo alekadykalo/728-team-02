@@ -1,38 +1,50 @@
 .about-us__highligh-text {
-    font-family: 'Rubik', sans-serif;
-    color: #28283A;
-    font-size: 34px;
-    font-weight: 700;
-    text-align: right;
+	font-family: 'Rubik', sans-serif;
+	color: #28283A;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: right;
 }
 
+.about-us-block {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-us-background {
+	width: 50%;
+	height: 50%;
+}
 
 .about-us {
-    margin-right: 50px;
-
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
 }
 
 .about-us__subtitle {
-    text-align: right;
-  
-    margin-left: 50%;
+	text-align: left;
 }
 
 
 .about-us__parts {
-    text-align: right;
-  
-    margin-left: 50%;
+	text-align: left;
 }
 
 .about-us__title {
-    text-transform: uppercase;
-    font-size: 34px;
-    padding: 0;
-    text-align: right;
-    font-family: 'Rubik', sans-serif;
-    color: #28283A;
-    font-weight: 600;
-    box-sizing: border-box;
-   
+	text-transform: uppercase;
+	font-size: 34px;
+	padding: 0;
+	text-align: left;
+	font-family: 'Rubik', sans-serif;
+	color: #28283A;
+	font-weight: 600;
+	box-sizing: border-box;
+
 }
