@@ -6,7 +6,7 @@
 	text-align: right;
 }
 
-.about-us-block {
+.about-us-container {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
@@ -14,7 +14,7 @@
 	align-items: center;
 }
 
-.about-us-background {
+.about-us__background {
 	width: 50%;
 	height: 50%;
 }

@@ -33,4 +33,18 @@
 
 .our-services {
     margin-left: 20px;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+}
+
+.our-services__info{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+
 }
