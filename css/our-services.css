@@ -40,11 +40,13 @@
 }
 
 .our-services__info{
-
-	display: flex;
 	flex-direction: column;
 	justify-content: left;
 	align-items: left;
 	text-align: left;
 
+}
+
+.our-services__link a{
+    display: inline-block;
 }
