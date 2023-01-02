@@ -32,10 +32,29 @@
 	text-align: left;
 }
 
-
-.about-us__parts {
-	text-align: left;
+.about-us-bottom__sublitle {
+ color: white;
+ font-family: 'Lato', sans-serif;
 }
+
+.accordion-item {
+	font-family: 'Lato', sans-serif;
+	color: #66698c;
+}
+
+.accordion-button {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	color: var(--bs-black);
+	background-color: var(--bs-white);
+	
+}
+
+.about-us-bottom {
+	background-color: rgb(134, 187, 70);
+}
+
 
 .about-us__title {
 	text-transform: uppercase;
