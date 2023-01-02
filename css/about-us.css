@@ -1,88 +1,69 @@
-.about-us-bottom__title {
-	color: grey;
-	font-size: 40px;
+.about-us__highligh-text {
+	font-family: 'Rubik', sans-serif;
+	color: #28283A;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: right;
 }
 
-body {
-    line-height: 1;
+.about-us-container {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-.background {
-    color: #28283a;
-}
-
-.w-block-wrapper:not(.w-block-wrapper--disable-theme) .w-section {
-    position: relative;
-    min-width: 320px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    font-size: 17px;
-    line-height: 1.7;
-    font-family: Lato,sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-    z-index: 1;
+.about-us__background {
+	width: 50%;
+	height: 50%;
 }
 
 .about-us {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
 }
 
-@media (min-width: 768px)
-.about-us {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+.about-us__subtitle {
+	text-align: left;
 }
 
-div {
-    display: block;
+.about-us-bottom__sublitle {
+ color: white;
+ font-family: 'Lato', sans-serif;
 }
 
-*, :after, :before, html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.accordion-item {
+	font-family: 'Lato', sans-serif;
+	color: #66698c;
 }
 
-*, :after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.accordion-button {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	color: var(--bs-black);
+	background-color: var(--bs-white);
+	
 }
 
-.about-us {
-    padding: 180px 30px 0;
-}
-
-@media (min-width: 768px){
-.about-us {
-    padding-top: 190px;
-}
+.about-us-bottom {
+	background-color: rgb(134, 187, 70);
 }
 
 
-@media (min-width: 768px) {
-.about-us {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%;
-    padding-top: 0;
-    margin: auto; 
-}
+.about-us__title {
+	text-transform: uppercase;
+	font-size: 34px;
+	padding: 0;
+	text-align: left;
+	font-family: 'Rubik', sans-serif;
+	color: #28283A;
+	font-weight: 600;
+	box-sizing: border-box;
+
 }

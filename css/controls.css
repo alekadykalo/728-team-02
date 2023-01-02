@@ -10,7 +10,7 @@
 	display: inline-block;
 	border-radius: 5px;
 	border: 2px solid rgb(134, 187, 70);
-	letter-spacing: 0.24;
+	letter-spacing: 0.24px;
 	transition: 0.5s;
 }
 
@@ -18,5 +18,29 @@
 	font-family: 'Rubik', sans-serif;
 	color: #ffffff;
 	background-color: rgb(134, 187, 70);
+	transition: 0.5s;
+}
+
+.button2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #595a71;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 5px;
+	border: 2px solid rgb(253, 253, 253);
+	letter-spacing: 0.24px;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.button2:hover {
+	font-family: 'Rubik', sans-serif;
+	color: rgb(134, 187, 70);
+	background-color: white;
 	transition: 0.5s;
 }

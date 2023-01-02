@@ -1,13 +1,6 @@
-.our-services__highligh-text {
-    font-family: 'Rubik', sans-serif;
-    color: #28283A;
-    font-size: 34px;
-    font-weight: 700;
-    text-align: left;
-}
-
 .our-services__list {
     list-style-type: none;
+    padding: 0;
 }
 
 .our-services__list-item {
@@ -40,4 +33,20 @@
 
 .our-services {
     margin-left: 20px;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+}
+
+.our-services__info{
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+
+}
+
+.our-services__link a{
+    display: inline-block;
 }

@@ -38,10 +38,6 @@
 	height: 100%;
 }
 
-.card__title {
-	margin-top: 20px;
-}
-
 .card__experience {
 	margin-top: 20px;
 	text-align: center;
@@ -57,7 +53,7 @@
 
 .btn__link {
 	margin: 0 5px 0 5px;
-	padding: auto;
+	padding: 0 5px 0 5px;
 	background-color: #86bb46;
 	cursor: pointer;
 }
@@ -103,10 +99,10 @@
 	border: none;
 	margin: auto;
 	padding: 0 2px 0 2px;
-	width: 5vw;
+	width: 2vw;
 	height: 100%;
 	position: absolute;
-	top: 0;
+	top: 110px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -138,6 +134,7 @@
 	flex-direction: row;
 	transition-duration: .2s;
 	transform: translateX(-500px);
+	overflow: hidden;
 }
 
 .partners__carousel-img {
