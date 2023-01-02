@@ -1,0 +1,104 @@
+.container {
+    justify-content: center;
+    max-width: 1440px;
+
+}
+
+.request {
+    border: solid;
+    border-color: #86bb46;
+    border-radius: 5px;
+}
+
+.request:hover {
+    background-color: #86bb46; 
+}
+
+.cutting-edge-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: inherit;
+    height: 300px;
+    width: 800px;
+    align-items: center;
+}
+.cutting_title {
+    color: black;
+    font-size: 48px;
+    align-items: center;
+}
+
+.background-image-windmill {
+    background-image: url(windmill-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 0;
+    min-width: 0;
+}
+
+.what-we-offer {
+    background-color: #86bb46; 
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    justify-content: center;
+}
+.what-we-offer:hover{
+  background-color: #495057;
+}
+.greenwind-decoration{
+    color: #86bb46;
+}
+.cutting_upper-title{
+    color: #86bb46;
+    font-size: 16px;
+}
+.cutting_info{
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.24px;
+}
+ @media (max-width:768px){
+    .cutting-edge-solutions{
+        margin-top: 50px;
+        margin-right: 100px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+ @media (max-width:425px){
+    .cutting-edge-solutions{
+        width: 320px;
+        margin: auto;
+    }
+ }
+ @media (max-width:320px){
+    .cutting-edge-solutions{
+        width: 300px;
+        margin: auto;
+        margin-left: -5px;
+        height: 300px;
+        padding: -10px;
+        margin-top: 200px;
+    }
+ }
+
+ .nav-hover:hover{
+    color: #86bb46;
+ }
