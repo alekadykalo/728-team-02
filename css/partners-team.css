@@ -1,3 +1,7 @@
+.partners-team-background {
+	background-color: #f8fafb;
+}
+
 .team {
 	box-sizing: border-box;
 	text-align: center;
@@ -28,6 +32,7 @@
 	padding: 0;
 	display: flex;
 	flex-direction: column;
+	border: 0;
 }
 
 .card__img {
@@ -92,6 +97,7 @@
 	position: relative;
 	margin: auto;
 	padding: 25px;
+	background-color: #f8fafb;
 }
 
 .carousel__prev,
@@ -106,7 +112,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
 	cursor: pointer;
 	z-index: 8;
 }
@@ -140,21 +145,23 @@
 .partners__carousel-img {
 	width: 100%;
 }
+
 @media (min-width: 414px) {
-.carousel__prev,
-.carousel__next {
-	border: none;
-	margin: auto;
-	padding: 0 2px 0 2px;
-	width: 2vw;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-	cursor: pointer;
-	z-index: 8;
-}
+
+	.carousel__prev,
+	.carousel__next {
+		border: none;
+		margin: auto;
+		padding: 0 2px 0 2px;
+		width: 2vw;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		z-index: 8;
+		background-color: #f8fafb;
+	}
 }
