@@ -14,12 +14,12 @@
 	scroll-behavior: smooth;
 }
 
-head,
+/*head,
 body {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	max-width: 100%;
-}
+}*/
 
 h2,
 h3 {

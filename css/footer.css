@@ -1,0 +1,89 @@
+.footer__background {
+	padding-top: 300px;
+	padding-bottom: 150px;
+	background-image: url(../img/footer/dark-mountain-windmills.webp);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.footer__container {
+	background-color: #28283a;
+	padding: 20px 32px 30px;
+	font-size: 17px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.footer__container {
+	border-bottom: 1px solid #66698c;
+	padding: 0px 25px;
+}
+
+.footer_logo {
+	width: 150px;
+	height: 45px;
+}
+
+.footer__navigation-bar {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__navigation-bar>a {
+
+	color: #fff;
+	border: 0;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.footer-copyright {
+	background-color: #28283a;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 32px;
+	font-size: 16px;
+}
+
+.footer__follow-us {
+	background-color: #28283a;
+	width: 200px;
+}
+
+.footer__follow-us>p {
+	color: #fff;
+}
+
+.footer__follow-us>div>a {
+	color: #fff;
+	border: 0;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.footer__subscribe>p {
+	color: #fff;
+}
+
+.footer__logo-text>p {
+	color: #fff;
+	font-size: 16px;
+	width: 200px;
+}
+
+.main-footer {
+	background-color: #28283a;
+	padding: 0px 280px;
+
+}
