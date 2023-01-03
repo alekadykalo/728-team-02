@@ -110,7 +110,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding: auto;
+		margin: auto;
 		font-size: 10px;
 		background-color: #28283a;
 		color: #fff;
