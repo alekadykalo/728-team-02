@@ -5,15 +5,10 @@
 	box-sizing: border-box;
 }
 
-.contats__info {
-	
+.contats__info {	
 	text-align: left;
 }
 
-/*.contact-us h2, p {
-	text-align: left;
-}
-*/
 .contacts__big-title {
 	font-size: 34px;
 	font-weight: 700;
@@ -29,7 +24,6 @@
 	text-align: left;
 }
 
-
 .contacts__form {
 	background-color: #ffffff;
 	padding: 20px 0;
@@ -40,10 +34,44 @@
 	background-color: #F8FAFB;
 	margin: 24px auto;
 	padding: 20px 30px;
-	width: 80%;
+	width: 90%;
 	border-radius: 5px;
+	border: 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #28283a;
 }
 
-.send-request__form > .button {
-	margin-top: 56px;
+.contacts__form-field:focus {
+	outline: 2px solid #3b99fc;
+}
+
+.contacts__form-button {
+	display: block;
+	margin: 56px auto;
+	padding: 20px 30px;
+	width: 90%;
+	background-color: #ffffff;
+}
+
+
+@media (min-width: 770px)
+{
+    .contact-us {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+    }
+}
+
+.contacts__info {
+	flex: 1;
+}
+
+.contacts__form {
+	flex: 1;
 }
