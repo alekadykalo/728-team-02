@@ -1,0 +1,49 @@
+.contact-us {
+	background-color: #F8FAFB;
+	min-width: 340px;
+	padding: 90px 24px 30px;
+	box-sizing: border-box;
+}
+
+.contats__info {
+	
+	text-align: left;
+}
+
+/*.contact-us h2, p {
+	text-align: left;
+}
+*/
+.contacts__big-title {
+	font-size: 34px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.contacts__subtitle {
+	text-align: left;
+}
+
+.contacts__title {
+	font-size: 22px;
+	text-align: left;
+}
+
+
+.contacts__form {
+	background-color: #ffffff;
+	padding: 20px 0;
+}
+
+.contacts__form-field{
+	display: block;
+	background-color: #F8FAFB;
+	margin: 24px auto;
+	padding: 20px 30px;
+	width: 80%;
+	border-radius: 5px;
+}
+
+.send-request__form > .button {
+	margin-top: 56px;
+}
