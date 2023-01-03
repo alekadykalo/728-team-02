@@ -27,12 +27,13 @@
     border: inherit;
     height: 300px;
     width: 800px;
-    align-items: center;
+    align-items: center;  
 }
 .cutting_title {
     color: black;
     font-size: 48px;
     align-items: center;
+    line-height: 1.0;
 }
 
 .background-image-windmill {
@@ -55,11 +56,12 @@
     background-color: #86bb46; 
     border-radius: 5px;
     border: none;
-    padding: 2px;
+    padding: 5px;
     justify-content: center;
 }
 .what-we-offer:hover{
   background-color: #495057;
+ 
 }
 .greenwind-decoration{
     color: #86bb46;
@@ -92,13 +94,26 @@
     .cutting-edge-solutions{
         width: 300px;
         margin: auto;
+        height: 330px;
+        margin-top: 20px;
+    }
+ }
+ @media(max-width:375px){
+    .cutting-edge-solutions{
+        width: 300px;
+        margin: auto;
         margin-left: -5px;
-        height: 300px;
+        height: 330px;
         padding: -10px;
-        margin-top: 200px;
+        margin-top: 50px;
     }
  }
 
+ @media(max-width:768px){
+    .request{
+        justify-content: start;
+    }
+ }
  .nav-hover:hover{
     color: #86bb46;
  }
