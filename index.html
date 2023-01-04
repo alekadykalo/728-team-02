@@ -371,7 +371,7 @@
 					in any convenient way:</p>
 				<div class="contacts__info-block">
 					<div class="contacts__info__section">
-						<div class="contacts__info__section-head">	
+						<div class="contacts__info__section-head">
 							<p class="contacts__title title">Address</p>
 						</div>
 						<div class="contacts__info__section-body">
@@ -408,9 +408,11 @@
 			<div class="contacts__form">
 				<form class="send-request__form" action="https://formspree.io/" method="post">
 					<input type="text" placeholder="Enter your full name*" name="full-name" class="contacts__form-field">
-					<input type="tel" placeholder="Enter your phone number*" name="phone-number" class="contacts__form-field">
-					<input type="email" placeholder="Enter your email*" name="email" class="contacts__form-field"> 
-					<textarea placeholder="Type your message" name="message" class="contacts__form-field" style="resize:none"></textarea>
+					<input type="tel" placeholder="Enter your phone number*" name="phone-number"
+						class="contacts__form-field">
+					<input type="email" placeholder="Enter your email*" name="email" class="contacts__form-field">
+					<textarea placeholder="Type your message" name="message" class="contacts__form-field"
+						style="resize:none"></textarea>
 					<input type="submit" value="Request a qoute" class="contacts__form-button button">
 				</form>
 			</div>
@@ -435,44 +437,58 @@
 
 				<div class="footer__navigation-bar">
 
-				<div class="footer__navigation-links">
-					<a href="#services">Services</a>
-					<a href="#about-us">About us</a>
-					<a href="#team">Team</a>
-					<a href="#contact-us">Contact us</a>
-				</div>
+					<div class="footer__navigation-links">
+						<a href="#services">Services</a>
+						<a href="#about-us">About us</a>
+						<a href="#team">Team</a>
+						<a href="#contact-us">Contact us</a>
+					</div>
 
-				<div class="footer__navigation-links">
-					<a href="#why-greenwind">Why Us</a>
-					<a href="#pricing">Pricing</a>
-					<a href="#testimonials">Testimonails</a>
-				</div>
+					<div class="footer__navigation-links">
+						<a href="#why-greenwind">Why Us</a>
+						<a href="#pricing">Pricing</a>
+						<a href="#testimonials">Testimonails</a>
+					</div>
 
-			</div>
+				</div>
 
 				<div class="footer__follow-us">
 					<p>
 						Follow Us
 					</p>
-					<div>
-						<a href="https://www.facebook.com">Facebook</a>
-						<a href="https://www.instagram.com">Instagram</a>
-						<a href="https://www.youtube.com">Youtube</a>
-					</div>
+
+					<ul class="footer__socials">
+						<li>
+							<a href="https://www.facebook.com">
+								<i class="fab fa-facebook-f" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com">
+								<i class="fab fa-youtube" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+
 				</div>
 
 				<div class="footer__subscribe">
 					<p>Subscribe to get the latest news from us</p>
-					<form class="send-request__form" action="https://formspree.io/" method="post">
-						<input type="email" placeholder="Enter your email*" name="email">
-						<input type="submit" value="Subscribe">
+					<form class="footer__form" action="https://formspree.io/" method="post">
+						<input type="email" placeholder="Email*" name="email" class="contacts__form-field footer__form-field">
+						<input type="submit" value="Subscribe" class="footer__button">
 					</form>
 				</div>
 
 			</div>
 			<div class="footer-copyright">
 				<div>
-					<p>© Created by</p>
+					<p>© Created by <a href="https://github.com/koldovsky/728-team-02">koldovsky/728-team-02</a></p>
 				</div>
 				<div>
 					<p>All rights Reserved</p>
