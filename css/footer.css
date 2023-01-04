@@ -34,7 +34,7 @@
 	justify-content: space-between;
 }
 
-.footer__navigation-links{
+.footer__navigation-links {
 	display: flex;
 	flex-direction: column;
 }
@@ -59,10 +59,12 @@
 	padding: 20px 0px;
 	font-size: 16px;
 }
-.footer-copyright>div>p{
+
+.footer-copyright>div>p {
 	color: #9f9f9f;
 }
-.footer-copyright>div>p>a{
+
+.footer-copyright>div>p>a {
 	color: #9f9f9f;
 	text-decoration: none;
 }
@@ -90,7 +92,7 @@
 }
 
 
-.footer__subscribe{
+.footer__subscribe {
 	width: 200px;
 	align-items: flex-end;
 	text-align: left;
@@ -116,18 +118,18 @@
 
 }
 
-.footer__form-field{
+.footer__form-field {
 	width: 190px;
-   height: 50px;
+	height: 50px;
 	border-color: #f8fafb;
 	background-color: rgba(255, 255, 255, 0.15);
 	color: grey;
 	font-weight: bold;
-	margin: 25px 0px 0px 0px;	
+	margin: 25px 0px 0px 0px;
 	padding: 10px 60px 10px 20px;
 }
 
-.footer__button{
+.footer__button {
 	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
@@ -144,15 +146,58 @@
 	transition: 0.5s;
 }
 
-.footer__button:hover{
+.footer__button:hover {
 	font-family: 'Rubik', sans-serif;
 	background-color: #fff;
 	color: rgb(89, 90, 113);
 	transition: 0.5s;
 }
 
+.footer__socials {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	padding-left: 0;
+}
 
-.filled_Qbi .outer_bDW {
-	fill: currentColor;
-	color: #ffffff;
+.footer__socials>li {
+	list-style-type: none;
+	background-color: #fff;
+	border-radius: 20%;
+	min-width: 30px;
+	min-height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-facebook-f:before {
+	content: "\f39e";
+	color: #222;
+}
+
+.footer__socials>li:hover {
+	background-color: rgb(134, 187, 70);
+}
+
+
+.fa-instagram:before {
+	content: "\f16d";
+	color: #222;
+}
+
+.fa-youtube:before {
+	content: "\f167";
+	color: #222;
+}
+
+.fab {
+	font-family: "Font Awesome 5 Brands";
+	display: inline-block;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Font Awesome 5 Brands";
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff2) format("woff2"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff) format("woff"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.ttf) format("truetype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.svg#fontawesome) format("svg")
 }
