@@ -79,10 +79,9 @@ p {
 	font-weight: 700;
 	text-transform: none;
 	text-decoration: none;
-	text-align: center;
-	margin: 25px 0px 25px 0px;
+	padding: 110px 40px 0px 0px;
+	margin: 110px 0px 25px 0px;
 	line-height: 1.2;
-	text-align: center;
 	word-break: break-word;
 }
 
