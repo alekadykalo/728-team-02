@@ -15,10 +15,14 @@
 
 }
 
+.our-services__upper-title, 
 .our-services__title {
-	text-transform: uppercase;
 	padding: 0;
 	text-align: left;
+}
+
+.our-services__upper-title {
+    text-transform: uppercase;
 }
 
 .our-services__title-lower {
@@ -47,6 +51,9 @@
 	.contacts__info {
 		padding: 20px;
 	}
+    .our-services__upper-title {
+        text-align: center;
+    }
 }
 
 .our-services__info {
@@ -55,10 +62,8 @@
 	text-align: left;
 }
 
-.our-services__upper-title,
-.our-services__title {
-	text-align: left;
-	padding: 0px;
+.our-services__info {
+    text-align: left;
 }
 
 .our-services__link a {
