@@ -5,8 +5,8 @@
 .team {
 	box-sizing: border-box;
 	text-align: center;
-	margin: 0;
-	padding: 50px 25px 50px 25px;
+	margin: 0 25px 50px 25px;
+	padding: 10px;
 }
 
 .team__tex {
@@ -16,19 +16,18 @@
 }
 
 .team__description {
-	word-break: break-word;
 	text-align: center;
 }
 
 .team__carousel {
-	margin-top: 45px;
-	margin-bottom: 45px;
+	margin: 45px 20px 45px 20px;
 	display: flex;
 	flex-direction: column;
+	box-sizing: border-box;
 }
 
 .team__carousel-slide {
-	margin: 20px;
+	margin: auto;
 	padding: 0;
 	display: flex;
 	flex-direction: column;
@@ -36,20 +35,21 @@
 }
 
 .card__img {
-	object-fit: cover;
-	margin: 0;
+	margin: auto;
 	padding: 0;
-	width: 100%;
-	height: 100%;
+	width: 150px;
+	height: 185px;
+	object-fit: cover;
+
 }
 
 .card__experience {
-	margin-top: 20px;
+	margin-top: 10px;
 	text-align: center;
 }
 
 .btn {
-	margin-top: 20px;
+	margin-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -65,8 +65,7 @@
 
 @media (min-width: 414px) {
 	.team__carousel {
-		margin-top: 40px;
-		margin-bottom: 40px;
+		margin: 50px 25px 50px 25px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		justify-content: center;
@@ -75,8 +74,7 @@
 
 @media (min-width: 850px) {
 	.team__carousel {
-		margin-top: 40px;
-		margin-bottom: 40px;
+		margin: 50px 25px 50px 25px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -85,7 +83,6 @@
 
 @media (min-width: 414px) {
 	.team__carousel-slide {
-		margin-top: 0px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
