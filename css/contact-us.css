@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-.contats__info {	
+.contats__info {
 	text-align: left;
 }
 
@@ -29,7 +29,7 @@
 	padding: 20px 0;
 }
 
-.contacts__form-field{
+.contacts__form-field {
 	display: block;
 	background-color: #F8FAFB;
 	margin: 24px auto;
@@ -41,10 +41,9 @@
 	font-size: 12px;
 	font-weight: 400;
 	color: #28283a;
-	vertical-align: top;
 }
 
-textarea[name="message"]  {
+textarea[name="message"] {
 	height: 150px;
 
 }
@@ -62,47 +61,55 @@ textarea[name="message"]  {
 }
 
 
-@media (min-width: 770px)
-{
-    .contact-us {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 120px 40px 30px;
-    }
-    .contacts__big-title {
+@media (min-width: 770px) {
+	.contact-us {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 120px 40px 30px;
+	}
+
+	.contacts__big-title {
 		font-size: 44px;
 	}
+
 	.contacts__title {
 		font-size: 23px;
 	}
+
 	.contacts-form {
 		margin-top: 20px;
 	}
-	.contacts__info{
+
+	.contacts__info {
 		padding-bottom: 0;
 	}
+
 	.contacts__form-field {
 		padding: 20px 30px;
 	}
+
 	.contacts__info__section {
 		display: flex;
 	}
 
-	.contacts__info__section .title{
+	.contacts__info__section .title {
 		margin: 0;
 	}
+
 	.contacts__info__section-head {
-		flex:1;
+		flex: 1;
 		vertical-align: center;
 		padding: 8px 15px 8px 0;
 	}
+
 	.contacts__info__section-body {
-		flex:3;
-		float:right;
+		flex: 3;
+		float: right;
 	}
-	.contacts__info__section-body p{
-		margin:0;
+
+	.contacts__info__section-body p {
+		margin: 0;
 	}
 
 }
@@ -123,9 +130,8 @@ textarea[name="message"]  {
 	flex: 1;
 }
 
-.contacts__map > iframe {
+.contacts__map>iframe {
 	display: block;
 	width: 100%;
 	height: 287px;
 }
-

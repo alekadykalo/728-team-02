@@ -8,16 +8,16 @@
 
 .footer__container {
 	background-color: #28283a;
-	padding: 20px 32px 30px;
+	padding: 20px 30px;
 	font-size: 17px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .footer__container {
 	border-bottom: 1px solid #66698c;
-	padding: 20px 25px;
+	padding: 20px 0px;
 }
 
 .footer_logo {
@@ -27,9 +27,11 @@
 }
 
 .footer__navigation-bar {
-	width: 400px;
+	width: 300px;
 	display: flex;
 	flex-direction: row;
+	padding: 0px;
+	justify-content: space-between;
 }
 
 .footer__navigation-links{
@@ -42,7 +44,7 @@
 
 	color: #fff;
 	border: 0;
-	padding: 10px 20px;
+	padding: 5px 0px;
 	text-align: left;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
@@ -51,17 +53,25 @@
 
 .footer-copyright {
 	background-color: #28283a;
-	color:#66698c;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 20px 32px;
+	padding: 20px 0px;
 	font-size: 16px;
 }
+.footer-copyright>div>p{
+	color: #9f9f9f;
+}
+.footer-copyright>div>p>a{
+	color: #9f9f9f;
+	text-decoration: none;
+}
+
 
 .footer__follow-us {
 	background-color: #28283a;
 	width: 200px;
+	padding: 0px 50px;
 }
 
 .footer__follow-us>p {
@@ -79,6 +89,16 @@
 
 }
 
+
+.footer__subscribe{
+	width: 200px;
+	align-items: flex-end;
+	text-align: left;
+	justify-content: space-between;
+}
+
+
+
 .footer__subscribe>p {
 	color: #fff;
 }
@@ -94,4 +114,45 @@
 	background-color: #28283a;
 	padding: 0px 170px;
 
+}
+
+.footer__form-field{
+	width: 190px;
+   height: 50px;
+	border-color: #f8fafb;
+	background-color: rgba(255, 255, 255, 0.15);
+	color: grey;
+	font-weight: bold;
+	margin: 25px 0px 0px 0px;	
+	padding: 10px 60px 10px 20px;
+}
+
+.footer__button{
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 25px 0px 0px 0px;
+	padding: 10px 45px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: rgb(134, 187, 70);
+	border: 2px solid rgb(134, 187, 70);
+	letter-spacing: 0.24px;
+	transition: 0.5s;
+}
+
+.footer__button:hover{
+	font-family: 'Rubik', sans-serif;
+	background-color: #fff;
+	color: rgb(89, 90, 113);
+	transition: 0.5s;
+}
+
+
+.filled_Qbi .outer_bDW {
+	fill: currentColor;
+	color: #ffffff;
 }
