@@ -1,119 +1,127 @@
-.container {
-    justify-content: center;
-    max-width: 1440px;
-
+.header__container {
+	justify-content: center;
+	max-width: 1440px;
 }
 
 .request {
-    border: solid;
-    border-color: #86bb46;
-    border-radius: 5px;
+	border: solid;
+	border-color: #86bb46;
+	border-radius: 5px;
 }
 
 .request:hover {
-    background-color: #86bb46; 
+	background-color: #86bb46;
 }
 
 .cutting-edge-solutions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    margin-left: 30px;
-    margin-top: 30px;
-    border: inherit;
-    height: 300px;
-    width: 800px;
-    align-items: center;  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+	margin-left: 30px;
+	margin-top: 30px;
+	border: inherit;
+	height: 300px;
+	width: 800px;
+	align-items: center;
 }
+
 .cutting_title {
-    color: black;
-    font-size: 48px;
-    align-items: center;
-    line-height: 1.0;
+	color: black;
+	font-size: 48px;
+	align-items: center;
+	line-height: 1.0;
 }
 
 .background-image-windmill {
-    background-image: url(windmill-bg.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: absolute;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    flex-basis: 100%;
-    max-width: 100%;
-    width: 0;
-    min-width: 0;
+	background-image: url(../img/header/windmill-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	background-attachment: fixed;
+	background-size: cover;
+	flex-basis: 100%;
+	max-width: 100%;
+	width: 100%;
+	padding-top: 350px;
+	padding-bottom: 250px;
+	background-position: 50% 50%;
 }
 
 .what-we-offer {
-    background-color: #86bb46; 
-    border-radius: 5px;
-    border: none;
-    padding: 5px;
-    justify-content: center;
+	background-color: #86bb46;
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	justify-content: center;
 }
-.what-we-offer:hover{
-  background-color: #495057;
- 
-}
-.greenwind-decoration{
-    color: #86bb46;
-}
-.cutting_upper-title{
-    color: #86bb46;
-    font-size: 16px;
-}
-.cutting_info{
-    color: black;
-    font-size: 16px;
-    letter-spacing: 0.24px;
-}
- @media (max-width:768px){
-    .cutting-edge-solutions{
-        margin-top: 50px;
-        margin-right: 100px;
-        width: auto;
-        justify-content: center;
-        align-items: center;
-    }
- }
- @media (max-width:425px){
-    .cutting-edge-solutions{
-        width: 320px;
-        margin: auto;
-    }
- }
- @media (max-width:320px){
-    .cutting-edge-solutions{
-        width: 300px;
-        margin: auto;
-        height: 330px;
-        margin-top: 20px;
-    }
- }
- @media(max-width:375px){
-    .cutting-edge-solutions{
-        width: 300px;
-        margin: auto;
-        margin-left: -5px;
-        height: 330px;
-        padding: -10px;
-        margin-top: 50px;
-    }
- }
 
- @media(max-width:768px){
-    .request{
-        justify-content: start;
-    }
- }
- .nav-hover:hover{
-    color: #86bb46;
- }
+.what-we-offer:hover {
+	background-color: #495057;
+
+}
+
+.greenwind-decoration {
+	color: #86bb46;
+}
+
+.cutting_upper-title {
+	color: #86bb46;
+	font-size: 16px;
+}
+
+.cutting_info {
+	color: black;
+	font-size: 16px;
+	letter-spacing: 0.24px;
+}
+
+@media (max-width:768px) {
+	.cutting-edge-solutions {
+		margin-top: 50px;
+		margin-right: 100px;
+		width: auto;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width:425px) {
+	.cutting-edge-solutions {
+		width: 320px;
+		margin: auto;
+	}
+}
+
+@media (max-width:320px) {
+	.cutting-edge-solutions {
+		width: 300px;
+		margin: auto;
+		height: 330px;
+		margin-top: 20px;
+	}
+}
+
+@media(max-width:375px) {
+	.cutting-edge-solutions {
+		width: 300px;
+		margin: auto;
+		margin-left: -5px;
+		height: 330px;
+		padding: -10px;
+		margin-top: 50px;
+	}
+}
+
+@media(max-width:768px) {
+	.request {
+		justify-content: start;
+	}
+}
+
+.nav-hover:hover {
+	color: #86bb46;
+}

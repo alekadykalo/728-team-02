@@ -1,5 +1,6 @@
 .our-services {
 	padding: 0 24px;
+	margin-top: 400px;
 }
 
 .our-services__list {
@@ -15,14 +16,14 @@
 
 }
 
-.our-services__upper-title, 
+.our-services__upper-title,
 .our-services__title {
 	padding: 0;
 	text-align: left;
 }
 
 .our-services__upper-title {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .our-services__title-lower {
@@ -51,9 +52,10 @@
 	.contacts__info {
 		padding: 20px;
 	}
-    .our-services__upper-title {
-        text-align: center;
-    }
+
+	.our-services__upper-title {
+		text-align: center;
+	}
 }
 
 .our-services__info {
@@ -63,7 +65,7 @@
 }
 
 .our-services__info {
-    text-align: left;
+	text-align: left;
 }
 
 .our-services__link a {
