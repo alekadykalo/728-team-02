@@ -20,15 +20,15 @@
 }
 
 .team__carousel {
-	margin: 45px 20px 45px 20px;
+	margin: 40px 20px 40px 20px;
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
 }
 
 .team__carousel-slide {
-	margin: 15px;
-	padding: 10px;
+	margin: 10px;
+	padding: 5px;
 	display: flex;
 	flex-direction: column;
 	border: 0;
@@ -45,7 +45,8 @@
 }
 
 .btn {
-	margin-top: 5px;
+	margin: 15px;
+	padding: 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -53,10 +54,12 @@
 }
 
 .btn__link {
-	margin: 0 5px 0 5px;
+	margin: 5px;
 	padding: 0 5px 0 5px;
 	background-color: #86bb46;
+	color: #f8fafb;
 	cursor: pointer;
+	border-radius: 20%;
 }
 
 @media (min-width: 414px) {
@@ -80,13 +83,12 @@
 
 @media (min-width: 850px) {
 	.team__carousel-slide {
-		margin: 0px;
+		margin: 10px;
 		padding: 10px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
-		max-width: 50%;
 	}
 }
 
