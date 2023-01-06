@@ -44,7 +44,8 @@
 	background-attachment: fixed;
 	background-size: cover;
 	flex-basis: 100%;
-	width: 1915px;
+	max-width: 1915px;
+	width: 100%;
 	padding-top: 350px;
 	padding-bottom: 250px;
 	background-position: 50% 50%;
