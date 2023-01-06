@@ -41,12 +41,13 @@
 
 .card__experience {
 	margin-top: 10px;
+	margin-bottom: 0;
 	text-align: center;
 }
 
 .btn {
-	margin: 15px;
-	padding: 0;
+	margin: 5px;
+	padding: 5px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -55,11 +56,14 @@
 
 .btn__link {
 	margin: 5px;
-	padding: 0 5px 0 5px;
+	padding: 5px;
 	background-color: #86bb46;
 	color: #f8fafb;
 	cursor: pointer;
 	border-radius: 20%;
+	width: fit-content;
+	height: fit-content;
+	align-items: center;
 }
 
 @media (min-width: 414px) {
