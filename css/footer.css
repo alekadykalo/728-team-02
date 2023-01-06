@@ -7,23 +7,23 @@
 }
 
 .footer__container {
-	background-color: #28283a;
+	background-color: var(--footer-background);
 	padding: 0px 170px;
 }
 
 .footer__without-copyright {
-	background-color: #28283a;
+	background-color: var(--footer-background);
 	padding: 20px 30px;
 	font-size: 17px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border-bottom: 1px solid #66698c;
+	border-bottom: 1px solid var(--footer-border);
 	padding: 20px 0px;
 }
 
 .footer__logo-text>p {
-	color: #fff;
+	color: var(--footer-logo-text);
 	font-size: 16px;
 	width: 210px;
 	word-wrap: break-word;
@@ -49,7 +49,7 @@
 }
 
 .footer__navigation-bar .footer__navigation-links>a {
-	color: #fff;
+	color: var(--footer-nav-links);
 	border: 0;
 	padding: 5px 0px;
 	text-align: left;
@@ -59,17 +59,17 @@
 }
 
 .footer__follow-us {
-	background-color: #28283a;
+	background-color: var(--footer-background);
 	width: 200px;
 	padding: 0px 50px;
 }
 
 .footer__follow-us>p {
-	color: #fff;
+	color: var(--footer-follow-us);
 }
 
 .footer__follow-us>div>a {
-	color: #fff;
+	color: var(--footer-follow-us);
 	border: 0;
 	padding: 10px 20px;
 	text-align: center;
@@ -87,7 +87,7 @@
 
 .footer__socials>li {
 	list-style-type: none;
-	background-color: #fff;
+	background-color: var(--footer-socials);
 	border-radius: 20%;
 	min-width: 30px;
 	min-height: 30px;
@@ -96,34 +96,34 @@
 	align-items: center;
 }
 
+@font-face {
+	font-family: "Font Awesome 5 Brands";
+	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff2) format("woff2"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff) format("woff"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.ttf) format("truetype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.svg#fontawesome) format("svg")
+}
+
 .fa-facebook-f:before {
 	content: "\f39e";
-	color: #222;
+	color: var(--footer-icons);
 }
 
 .footer__socials>li:hover {
-	background-color: rgb(134, 187, 70);
+	background-color: var(--footer-icons-hover);
 }
 
 .fa-instagram:before {
 	content: "\f16d";
-	color: #222;
+	color: var(--footer-icons);
 }
 
 .fa-youtube:before {
 	content: "\f167";
-	color: #222;
+	color: var(--footer-icons);
 }
 
 .fab {
 	font-family: "Font Awesome 5 Brands";
 	display: inline-block;
 	font-style: normal;
-}
-
-@font-face {
-	font-family: "Font Awesome 5 Brands";
-	src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff2) format("woff2"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff) format("woff"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.ttf) format("truetype"), url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .footer__subscribe {
@@ -134,7 +134,7 @@
 }
 
 .footer__subscribe>p {
-	color: #fff;
+	color: var(--footer-subscribe);
 }
 
 .footer__form {
@@ -150,9 +150,8 @@
 	font-weight: 400;
 	width: 190px;
 	height: 50px;
-	border-color: #f8fafb;
-	background-color: rgba(255, 255, 255, 0.15);
-	color: grey;
+	background-color: var(--footer-form-field-background);
+	color: var(--footer-form-field);
 	font-weight: bold;
 	margin: 25px 0px 0px 0px;
 	padding: 10px 60px 10px 20px;
@@ -162,28 +161,28 @@
 	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
-	color: #fff;
+	color: var(--footer-button);
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: 25px 0px 0px 0px;
 	padding: 10px 57px;
 	display: inline-block;
 	border-radius: 5px;
-	background-color: rgb(134, 187, 70);
-	border: 2px solid rgb(134, 187, 70);
+	background-color: var(--footer-button-background);
+	border: 2px solid var(--footer-button-background);
 	letter-spacing: 0.24px;
 	transition: 0.5s;
 }
 
 .footer__button:hover {
 	font-family: 'Rubik', sans-serif;
-	background-color: #fff;
-	color: rgb(89, 90, 113);
+	background-color: var(--footer-button-hover-background);
+	color: var(--footer-button-hover);
 	transition: 0.5s;
 }
 
 .footer__copyright {
-	background-color: #28283a;
+	background-color: var(--footer-background);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -192,15 +191,15 @@
 }
 
 .footer__copyright>div>p {
-	color: #9f9f9f;
+	color: var(--footer-copyright);
 }
 
 .footer__copyright>div>p>a {
-	color: #9f9f9f;
+	color: var(--footer-copyright);
 	text-decoration: none;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 961px) {
 
 	.footer__container {
 		display: flex;
@@ -280,7 +279,7 @@
 
 }
 
-@media (min-width: 640px) and (max-width: 1530px) {
+@media (min-width: 961px) and (max-width: 1530px) {
 
 	.footer__container {
 		padding: 0px 30px;

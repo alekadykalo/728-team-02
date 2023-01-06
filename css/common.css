@@ -85,9 +85,28 @@
 
 :root {
 	font-family: 'Lato', sans-serif;
-	--main-text-color: black;
-	--bg-color: #ffffff;
 	scroll-behavior: smooth;
+	--main-text-color: black;
+	--bg-color: #fff;
+	--testimonials-background: #f8fafb;
+	--testimonials-arrows-background: #28283a;
+	--testimonials-arrows: #fff;
+	--footer-background: #28283a;
+	--footer-border: #66698c;
+	--footer-logo-text: #fff;
+	--footer-nav-links: #fff;
+	--footer-follow-us: #fff;
+	--footer-socials: #fff;
+	--footer-icons: #222;
+	--footer-icons-hover: rgb(134, 187, 70);
+	--footer-subscribe: #fff;
+	--footer-form-field-background: rgba(255, 255, 255, 0.15);
+	--footer-form-field: #grey;
+	--footer-button: #fff;
+	--footer-button-background: rgb(134, 187, 70);
+	--footer-button-hover-background: #fff;
+	--footer-button-hover: rgb(89, 90, 113);
+	--footer-copyright: #9f9f9f;
 }
 
 h2,
