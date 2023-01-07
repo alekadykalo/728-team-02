@@ -135,6 +135,10 @@
 	font-style: normal;
 }
 
+.footer__form {
+	padding-bottom: 20px;
+}
+
 .footer__subscribe {
 	width: 250px;
 	display: flex;
