@@ -21,7 +21,7 @@
 	transition: 0.5s;
 }
 
-.button2 {
+.about-us-bottom__button {
 	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
@@ -39,7 +39,7 @@
 
 }
 
-.button2:hover {
+.about-us-bottom__button:hover {
 	font-family: 'Rubik', sans-serif;
 	color: rgb(134, 187, 70);
 	background-color: white;
