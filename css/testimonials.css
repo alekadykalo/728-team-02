@@ -116,6 +116,17 @@
 
 @media (min-width: 1530px) {
 
+	.swiper-button-next:after,
+	.swiper-button-prev:after {
+
+		margin: auto;
+		font-size: 25px;
+		background-color: var(--testimonials-background);
+		color: var(--swiper-theme-color);
+		border-radius: 0%;
+
+	}
+
 	.testimonials .swiper-slide {
 		min-height: 650px;
 	}
