@@ -74,6 +74,33 @@
 	background-color: #FFFFFF;
 }
 }
+
+@media  (min-width: 640px) {
+	.whyus__carousel-slide {
+		flex: 0 0 auto;
+		width: 350px;
+		height: 300px;
+		margin-right: 40px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+		background-color: #FFFFFF;
+	}
+	}
+
+	@media  (min-width: 960px) {
+		.whyus__carousel-slide {
+			flex: 0 0 auto;
+			width: 550px;
+			height: 280px;
+			margin-right: 40px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			border-style: none;
+			background-color: #FFFFFF;
+		}
+		}
+
 .slide__image {
 	width: 60px;
 	height: 60px;
