@@ -1,5 +1,4 @@
 .header__container {
-	justify-content: center;
 	max-width: 1440px;
 }
 
@@ -21,12 +20,13 @@
 	text-align: center;
 	padding: 10px;
 	background-color: white;
-	margin-left: 30px;
+	margin-left: 100px;
 	margin-top: 30px;
 	border: inherit;
 	height: 300px;
-	width: 800px;
+	width: 600px;
 	align-items: center;
+	border-radius: 5px;
 }
 
 .cutting_title {
@@ -79,13 +79,19 @@
 	letter-spacing: 0.24px;
 }
 
-@media (max-width:768px) {
+@media ( max-width:768px) {
 	.cutting-edge-solutions {
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-right: 100px;
 		width: auto;
 		justify-content: center;
 		align-items: center;
+	}
+	.request {
+		border: solid;
+		border-color: #86bb46;
+		border-radius: 5px;
+		width: 150px;
 	}
 }
 
@@ -93,6 +99,7 @@
 	.cutting-edge-solutions {
 		width: 320px;
 		margin: auto;
+		margin-top:20px;
 	}
 }
 
@@ -102,6 +109,13 @@
 		margin: auto;
 		height: 330px;
 		margin-top: 20px;
+		margin-left: 10px;
+	}
+	.request {
+		border: solid;
+		border-color: #86bb46;
+		border-radius: 5px;
+		width: 150px;
 	}
 }
 
@@ -109,19 +123,18 @@
 	.cutting-edge-solutions {
 		width: 300px;
 		margin: auto;
-		margin-left: -5px;
 		height: 330px;
 		padding: -10px;
-		margin-top: 50px;
+		margin-top: 20px;
+		margin-left: 10px;
 	}
-}
-
-@media(max-width:768px) {
 	.request {
-		justify-content: start;
+		border: solid;
+		border-color: #86bb46;
+		border-radius: 5px;
+		width: 150px;
 	}
 }
-
 .nav-hover:hover {
 	color: #86bb46;
 }
