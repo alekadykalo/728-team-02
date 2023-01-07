@@ -12,34 +12,68 @@
 	margin: 25px 100px 25px 100px;
 }
 
+@media  (min-width: 320px) {
+	.whyus_upper-title {
+		margin: 0px;
+		padding: 0;
+		font-family: Lato, sans-serif;
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 0.36px;
+		line-height: 21.84px;
+		text-align: center;
+		text-transform: none;
+	}
+}
+
+@media  (min-width: 320px) {
+.whyus__title-title {
+    margin: 0;
+    color: #28283a;
+    font-size: 44px;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    margin: 25px 0px 25px 0px;
+    line-height: 1.2;
+    text-align: center;
+    word-break: break-word;
+}
+}
+@media  (min-width: 320px) {
 .whyus__subtitle {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	line-height: 31.35px;
+	font-size: 18px;
 }
-
+}
+@media  (min-width: 320px) {
 .whyus__container {
-	padding: 0 3vw;
+	padding: 0;
 	display: flex;
 	overflow-x: auto;
 	scroll-behavior: smooth;
+}
 }
 
 .whyus__container::-webkit-scrollbar {
 	display: none;
 }
 
+@media  (min-width: 320px) {
 .whyus__carousel-slide {
 	flex: 0 0 auto;
-	width: 400px;
-	height: 280px;
+	width: 270px;
+	height: 300px;
 	margin-right: 40px;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border-style: none;
 	background-color: #FFFFFF;
 }
-
+}
 .slide__image {
 	width: 60px;
 	height: 60px;
@@ -72,13 +106,13 @@
 	text-transform: none;
 	vertical-align: baseline;
 }
-
+@media  (min-width: 320px) {
 .pre-btn , .nxt-btn {
 	border: none;
 	width: 2vw;
 	height: 70%;
 	position: absolute;
-	top: 110px;
+	top: 470px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -86,7 +120,7 @@
 	cursor: pointer;
 	z-index: 8;
 }
-
+}
 .pre-btn {
 	left: 0;
 	transform: rotate(180deg);
@@ -104,4 +138,4 @@
 .pre-btn:hover img,
 .nxt-btn:hover img {
 	opacity: 1;
-}
+} 
