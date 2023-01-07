@@ -24,8 +24,8 @@
 	flex-direction: column;
 	justify-content: space-between;
 	background-color: var(--testimonials-background);
-	padding: 50px;
-	min-height: 620px;
+	padding: 5px;
+	min-height: 580px;
 }
 
 .swiper-button-next:after,
@@ -94,6 +94,7 @@
 
 	.testimonials .swiper-slide {
 		min-height: 600px;
+		padding: 50px;
 	}
 
 }
