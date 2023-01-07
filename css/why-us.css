@@ -121,6 +121,56 @@
 	z-index: 8;
 }
 }
+@media  (min-width: 640px) {
+	.pre-btn , .nxt-btn {
+		border: none;
+		width: 2vw;
+		height: 70%;
+		position: absolute;
+		top: 290px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+		cursor: pointer;
+		z-index: 8;
+	}
+	}
+
+	@media  (min-width: 960px) {
+		.pre-btn , .nxt-btn {
+			border: none;
+			width: 2vw;
+			height: 70%;
+			position: absolute;
+			top: 245px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+			cursor: pointer;
+			z-index: 8;
+	
+		}
+		}
+
+		@media  (min-width: 1530px) {
+			.pre-btn , .nxt-btn {
+				border: none;
+				width: 2vw;
+				height: 70%;
+				position: absolute;
+				top: 215px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+				cursor: pointer;
+				z-index: 8;
+		
+			}
+			}
+
 .pre-btn {
 	left: 0;
 	transform: rotate(180deg);
