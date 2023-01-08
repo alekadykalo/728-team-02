@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
 
 	leftBtn.addEventListener('click', () => {
 		if (counter <= 0) counter = 0;
-		counter--
+		counter--;
 		sld.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
 	})
 	
