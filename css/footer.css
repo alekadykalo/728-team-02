@@ -7,7 +7,7 @@
 
 .footer__container {
 	background-color: var(--footer-background-color);
-	padding: 25px 30px 0px;
+	padding: 25px;
 	margin: auto;
 }
 
@@ -58,9 +58,7 @@
 
 .footer__navigation-bar .footer__navigation-links>a {
 	color: var(--footer-nav-links-color);
-	border: 0;
 	padding: 5px 0px;
-	text-align: left;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
@@ -88,14 +86,12 @@
 
 .footer__socials {
 	display: flex;
-	flex-direction: row;
 	gap: 10px;
 	padding: 0px 0px 20px 0px;
 	justify-content: center;
 }
 
 .footer__socials>li {
-	list-style-type: none;
 	background-color: var(--footer-socials-color);
 	border-radius: 20%;
 	min-width: 30px;
@@ -111,7 +107,6 @@
 }
 
 .fa-facebook-f:before {
-	content: "\f39e";
 	color: var(--footer-icons-color);
 }
 
@@ -120,12 +115,10 @@
 }
 
 .fa-instagram:before {
-	content: "\f16d";
 	color: var(--footer-icons-color);
 }
 
 .fa-youtube:before {
-	content: "\f167";
 	color: var(--footer-icons-color);
 }
 
@@ -149,22 +142,18 @@
 .footer__subscribe>p {
 	color: var(--footer-subscribe-color);
 	text-align: center;
-	padding: 0px;
 }
 
 .footer__form-field {
 	width: 250px;
 	height: 50px;
-	display: block;
 	border-radius: 5px;
 	border: 0px;
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
-	font-weight: 400;
 	background-color: var(--footer-form-field-background-color);
 	color: var(--footer-form-field-color);
 	font-weight: bold;
-	margin: 10px 0px 0px 0px;
 	padding: 10px 60px 10px 20px;
 }
 
@@ -175,11 +164,8 @@
 	font-size: 12px;
 	font-weight: 700;
 	color: var(--footer-button-color);
-	text-decoration: none;
 	text-transform: uppercase;
 	margin: 25px 0px 0px 0px;
-	padding: 10px auto;
-	display: inline-block;
 	border-radius: 5px;
 	background-color: var(--footer-button-background-color);
 	border: 2px solid var(--footer-button-background-color);
