@@ -8,13 +8,13 @@ window.addEventListener('load', () => {
 
 	sld.style.transform = 'translateX(' + `${stepSize * counter}px)`;
 	rightBtn.addEventListener('click', () => {
-		counter >= img.length - 1 ? (counter = -1) : null;
+		if (counter >= img.length -1) counter = - 1;
 		counter++;
 		sld.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
 	});
 
 	leftBtn.addEventListener('click', () => {
-		if (counter <= 0) counter = 0;
+		if (counter <= 0) counter = img.length;
 		counter--;
 		sld.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
 	})

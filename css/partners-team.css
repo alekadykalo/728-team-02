@@ -1,5 +1,8 @@
 .partners-team-background {
 	background-color: #f8fafb;
+	margin: 0;
+	padding: 0;
+	align-items: center;
 }
 
 .team {
@@ -110,8 +113,8 @@
 
 .slider__conteiner {
 	position: relative;
-	margin: auto;
-	padding: 25px;
+	margin: 5px;
+	padding: 0;
 	background-color: #f8fafb;
 	overflow: hidden;
 	display: flex;
@@ -121,8 +124,8 @@
 .carousel__prev,
 .carousel__next {
 	border: none;
-	margin: auto;
-	padding: 0 5px 0 5px;
+	margin: 0;
+	padding: 0 2px 0 2px;
 	height: 162px;
 	position: absolute;
 	display: flex;
@@ -154,8 +157,9 @@
 .partners__carousel {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	transition-duration: 0.3s;
-	transform: translateX(270px);
+	transform: translateX(-270px);
 }
 
 .partners__carousel-img {
@@ -167,7 +171,7 @@
 		display: flex;
 		flex-direction: row;
 		transition-duration: 0.3s;
-		transform: translateX(100%);
+		transform: translateX(-100%);
 	}
 }
 
@@ -182,7 +186,7 @@
 		display: flex;
 		flex-direction: row;
 		transition-duration: 0.3s;
-		transform: translateX(100%);
+		transform: translateX(-100%);
 	}
 }
 
