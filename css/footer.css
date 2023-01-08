@@ -21,14 +21,14 @@
 	width: auto;
 	margin: auto;
 	border-bottom: 1px solid var(--footer-border-color);
-	padding: 0px;
+	padding: 0;
 }
 
 .footer__logo-text>p {
 	color: var(--footer-logo-text-color);
 	font-size: 14px;
 	text-align: center;
-	padding: 30px 0px;
+	padding: 30px 0;
 }
 
 .footer__logo {
@@ -58,7 +58,7 @@
 
 .footer__navigation-bar .footer__navigation-links>a {
 	color: var(--footer-nav-links-color);
-	padding: 5px 0px;
+	padding: 5px 0;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
@@ -66,7 +66,7 @@
 .footer__follow-us {
 	background-color: var(--footer-background-color);
 	width: 200px;
-	padding: 0px 50px;
+	padding: 0 50px;
 }
 
 .footer__follow-us>p {
@@ -87,7 +87,7 @@
 .footer__socials {
 	display: flex;
 	gap: 10px;
-	padding: 0px 0px 20px 0px;
+	padding: 0 0 20px 0;
 	justify-content: center;
 }
 
@@ -148,7 +148,7 @@
 	width: 250px;
 	height: 50px;
 	border-radius: 5px;
-	border: 0px;
+	border: 0;
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	background-color: var(--footer-form-field-background-color);
@@ -165,7 +165,7 @@
 	font-weight: 700;
 	color: var(--footer-button-color);
 	text-transform: uppercase;
-	margin: 25px 0px 0px 0px;
+	margin: 25px 0 0 0;
 	border-radius: 5px;
 	background-color: var(--footer-button-background-color);
 	border: 2px solid var(--footer-button-background-color);
@@ -184,7 +184,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 20px 0px;
+	padding: 20px 0;
 	font-size: 16px;
 }
 
@@ -228,7 +228,7 @@
 		color: var(--footer-logo-text-color);
 		font-size: 14px;
 		text-align: left;
-		padding: 30px 0px;
+		padding: 30px 0;
 	}
 
 	.footer__logo-text {
@@ -246,7 +246,7 @@
 
 	.footer__navigation-links {
 		font-size: 17px;
-		padding: 0px 0px 30px 30px;
+		padding: 0 0 30px 30px;
 		align-items: flex-start;
 	}
 
@@ -265,7 +265,7 @@
 	}
 
 	.footer__follow-us>div>a {
-		padding: 0px 0px;
+		padding: 0;
 		text-align: left;
 	}
 
@@ -301,7 +301,7 @@
 	}
 
 	.footer__container {
-		padding: 25px 150px 0px;
+		padding: 25px 150px 0;
 	}
 
 	.footer__subscribe,
@@ -315,7 +315,7 @@
 @media (min-width: 1920px) {
 
 	.footer__container {
-		padding: 25px 350px 0px;
+		padding: 25px 350px 0;
 	}
 
 }
