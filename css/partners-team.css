@@ -67,12 +67,23 @@
 	align-items: center;
 }
 
+.btn__link:hover {
+	opacity: 1;
+	background-color: #395319;
+}
+
 @media (min-width: 414px) {
 	.team__carousel {
 		margin: 50px 25px 50px 25px;
 		display: flex;
 		-webkit-box-pack: center;
 		justify-content: center;
+	}
+}
+
+@media (max-width: 360px) {
+	.title {
+		font-size: 34px;
 	}
 }
 
@@ -180,4 +191,3 @@
 		width: 20%;
 	}
 }
-

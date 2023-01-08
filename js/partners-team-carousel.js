@@ -18,7 +18,6 @@ window.addEventListener('load', () => {
 		counter--
 		sld.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
 	})
-	
 })
 
 
