@@ -88,25 +88,25 @@
 	scroll-behavior: smooth;
 	--main-text-color: black;
 	--bg-color: #fff;
-	--testimonials-background: #f8fafb;
-	--testimonials-arrows-background: #28283a;
-	--testimonials-arrows: #fff;
-	--footer-background: #28283a;
-	--footer-border: #66698c;
-	--footer-logo-text: #fff;
-	--footer-nav-links: #fff;
-	--footer-follow-us: #fff;
-	--footer-socials: #fff;
-	--footer-icons: #222;
-	--footer-icons-hover: rgb(134, 187, 70);
-	--footer-subscribe: #fff;
-	--footer-form-field-background: rgba(255, 255, 255, 0.15);
-	--footer-form-field: #grey;
-	--footer-button: #fff;
-	--footer-button-background: rgb(134, 187, 70);
-	--footer-button-hover-background: #fff;
-	--footer-button-hover: rgb(89, 90, 113);
-	--footer-copyright: #9f9f9f;
+	--testimonials-background-color: #f8fafb;
+	--testimonials-arrows-background-color: #28283a;
+	--testimonials-arrows-color: #fff;
+	--footer-background-color: #28283a;
+	--footer-border-color: #66698c;
+	--footer-logo-text-color: #fff;
+	--footer-nav-links-color: #fff;
+	--footer-follow-us-color: #fff;
+	--footer-socials-color: #fff;
+	--footer-icons-color: #222;
+	--footer-icons-hover-color: rgb(134, 187, 70);
+	--footer-subscribe-color: #fff;
+	--footer-form-field-background-color: rgba(255, 255, 255, 0.15);
+	--footer-form-field-color: #grey;
+	--footer-button-color: #fff;
+	--footer-button-background-color: rgb(134, 187, 70);
+	--footer-button-hover-background-color: #fff;
+	--footer-button-hover-color: rgb(89, 90, 113);
+	--footer-copyright-color: #9f9f9f;
 }
 
 h2,
