@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
 	});
 
 	leftBtn.addEventListener('click', () => {
-		if (counter <= 0) counter = img.length;
+		if (counter <= 0) counter = 0;
 		counter--
 		sld.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
 	})

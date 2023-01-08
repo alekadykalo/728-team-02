@@ -66,6 +66,7 @@
 	height: fit-content;
 	align-items: center;
 }
+
 @media (min-width: 414px) {
 	.team__carousel {
 		margin: 50px 25px 50px 25px;
@@ -97,12 +98,14 @@
 }
 
 .slider__conteiner {
-	position:relative;
+	position: relative;
 	margin: auto;
 	padding: 25px;
 	background-color: #f8fafb;
 	overflow: hidden;
-	}
+	display: flex;
+	align-items: center;
+}
 
 .carousel__prev,
 .carousel__next {
@@ -147,49 +150,34 @@
 .partners__carousel-img {
 	width: 270px;
 }
+
 @media (min-width: 360px) {
- .partners__carousel {
-	display: flex;
-	flex-direction: row;
-	transition-duration: 0.3s;
-	transform: translateX(100%);
+	.partners__carousel {
+		display: flex;
+		flex-direction: row;
+		transition-duration: 0.3s;
+		transform: translateX(100%);
+	}
 }
-}
+
 @media (min-width: 360px) {
-.partners__carousel-img {
-	width: 100%;
-}
+	.partners__carousel-img {
+		width: 100%;
+	}
 }
 
 @media (min-width: 640px) {
 	.partners__carousel {
-	   display: flex;
-	   flex-direction: row;
-	   transition-duration: 0.3s;
-	   transform: translateX(100%);
-	   max-width: 600px;
-   }
-   }
-   @media (min-width: 640px) {
-   .partners__carousel-img {
-	   width: 20%;
-   }
-   }
-
-@media (min-width: 360px) {
-
-	.carousel__prev,
-	.carousel__next {
-		border: none;
-	margin: auto;
-	padding: 0 5px 0 5px;
-	height: 72px;
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-	z-index: 8;
-	background-color: #f8fafb;
+		display: flex;
+		flex-direction: row;
+		transition-duration: 0.3s;
+		transform: translateX(100%);
 	}
 }
+
+@media (min-width: 640px) {
+	.partners__carousel-img {
+		width: 20%;
+	}
+}
+
