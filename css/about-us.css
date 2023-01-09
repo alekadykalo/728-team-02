@@ -22,10 +22,6 @@
 .about-us {
 	height: 100%;
 	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: left;
-	align-items: left;
 }
 
 .about-us__subtitle {
@@ -35,6 +31,7 @@
 .about-us-bottom__sublitle {
 	color: white;
 	font-family: 'Lato', sans-serif;
+	text-align: left;
 }
 
 .accordion-item {
@@ -56,20 +53,23 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	
-	
-	
 }
 
+@media (min-width: 770px) {
+	.about-us {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	}
+}
 .about-us__title {
-	text-transform: uppercase;
-	font-size: 34px;
-	padding: 0;
 	text-align: left;
-	font-family: 'Rubik', sans-serif;
-	color: #28283A;
-	font-weight: 600;
-	box-sizing: border-box;
+}
+
+.about-us__up-title {
+	text-align: left;
 }
 
 .about-us-bottom__title {
@@ -81,5 +81,8 @@
 	text-decoration: none;
 	margin-top: 110px;
 	margin-bottom: 110px;
+	text-align: left;
+	padding-left: 50px;
+	
 	
 }
