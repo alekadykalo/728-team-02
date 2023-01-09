@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 
     leftBtn.addEventListener('click', () => {
         if (window.innerWidth < 640 && counter <= 0) counter = img.length;
-        else if (window.innerWidth >= 640 && counter <= 0) counter = img.length - 1;
+        else if (window.innerWidth >= 640 && counter <= 0) counter = img.length - 2;
         counter--;
         sld.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
     });
