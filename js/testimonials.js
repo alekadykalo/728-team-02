@@ -34,7 +34,7 @@
     },
   ];
 
-  function loadTestimonials(testimonials) {
+  function renderTestimonials(testimonials) {
     const testimonialsContainer = document.querySelector(".swiper-wrapper");
     for (const testimonial of testimonials) {
       testimonialsContainer.innerHTML += `<div class="swiper-slide">
@@ -50,7 +50,7 @@
 		</div>`;
     }
   }
-  loadTestimonials(testimonials);
+  renderTestimonials(testimonials);
 
   var swiper = new Swiper(".swiper", {
     slidesPerView: 1,
