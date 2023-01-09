@@ -114,7 +114,7 @@
 .slider__conteiner {
 	position: relative;
 	margin: 5px;
-	padding: 0;
+	padding: 0 2px 0 2px;
 	background-color: #f8fafb;
 	overflow: hidden;
 	display: flex;
@@ -170,7 +170,7 @@
 	.partners__carousel {
 		display: flex;
 		flex-direction: row;
-		transition-duration: 0.3s;
+		transition-duration: 0.1s;
 		transform: translateX(-100%);
 	}
 }
