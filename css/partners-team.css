@@ -159,21 +159,13 @@
 	flex-direction: row;
 	align-items: center;
 	transition-duration: 0.1s;
-	transform: translateX(-270px);
+	transform: translateX(-100%);
 }
 
 .partners__carousel-img {
-	width: 270px;
+	width: 100%;
 }
 
-@media (min-width: 360px) {
-	.partners__carousel {
-		display: flex;
-		flex-direction: row;
-		transition-duration: 0.1s;
-		transform: translateX(-100%);
-	}
-}
 
 @media (min-width: 360px) {
 	.partners__carousel-img {
