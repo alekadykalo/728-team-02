@@ -380,12 +380,12 @@
 				</div>
 			</div>
 			<div class="contacts__form">
-				<form class="send-request__form" action="https://formspree.io/" method="post">
+				<form class="send-request__form valid" name="send-request__form" action="https://formspree.io/f/mjvdvjla" method="post" id="request_form" onsubmit="validation(event);">
 					<input type="text" placeholder="Enter your full name*" name="full-name"
-						class="contacts__form-field">
+						class="contacts__form-field valid">
 					<input type="tel" placeholder="Enter your phone number*" name="phone-number"
-						class="contacts__form-field">
-					<input type="email" placeholder="Enter your email*" name="email" class="contacts__form-field">
+						class="contacts__form-field valid">
+					<input type="email" placeholder="Enter your email*" name="email" class="contacts__form-field valid">
 					<textarea placeholder="Type your message" name="message" class="contacts__form-field"
 						style="resize:none"></textarea>
 					<input type="submit" value="Request a qoute" class="contacts__form-button button">
@@ -477,6 +477,7 @@
 	<!-- #region testimonials.js Alessandro Kadykalo  -->
 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 	<script src="js/testimonials.js"></script>
+	<script src="js/form_submit.js"></script>
 	<!-- #endregion Kadykalo Alessandro -->
 </body>
 
