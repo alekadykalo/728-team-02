@@ -17,6 +17,8 @@
 .about-us__background {
 	width: 50%;
 	height: 50%;
+	
+	object-fit: cover;
 }
 
 .about-us {
@@ -49,8 +51,8 @@
 }
 
 .about-us-bottom {
-	background-color: rgb(134, 187, 70);
-
+	flex-direction: row;
+	position: relative;	
 }
 
 .about-us__text-button-container{
@@ -63,6 +65,20 @@
 	margin-top: 110px;
 	margin-bottom: 110px;
 	}
+.background-image-greencountries{
+	background-image: url(../img/aboutus/contactus_bg.webp);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	background-attachment: fixed;
+	background-size: cover;
+	flex-basis: 100%;
+	max-width: 1500px;
+	width: 100%;
+	padding-top: 350px;
+	padding-bottom: 250px;
+	background-position: 50% 50%;
+}
 
 @media (min-width: 770px) {
 	.about-us {
