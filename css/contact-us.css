@@ -48,8 +48,16 @@ textarea[name="message"] {
 
 }
 
-.contacts__form-field:focus {
+.valid:focus {
 	outline: 2px solid #3b99fc;
+}
+
+.errorField {
+    outline: 2px solid red;
+}
+
+.errorField:focus {
+    outline: 2px solid red;
 }
 
 .contacts__form-button {
