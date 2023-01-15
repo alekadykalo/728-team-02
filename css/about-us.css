@@ -80,14 +80,13 @@
 	background-position: 50% 50%;
 }
 
-@media (min-width: 770px) {
-	.about-us {
-	margin-left: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: left;
-	}
+@media (min-width: 320px) {
+	.about-us-bottom {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 120px 40px 30px;
+}
 }
 .about-us__title {
 	text-align: left;
