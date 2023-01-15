@@ -45,7 +45,7 @@
 	background-size: cover;
 	flex-basis: 100%;
 	max-width: 1915px;
-	width: 100%;
+	width: 310px;
 	padding-top: 350px;
 	padding-bottom: 250px;
 	background-position: 50% 50%;
@@ -79,7 +79,7 @@
 	letter-spacing: 0.24px;
 }
 
-@media ( max-width:768px) {
+@media (max-width:768px) {
 	.cutting-edge-solutions {
 		margin-top: 100px;
 		margin-right: 100px;
@@ -87,6 +87,7 @@
 		justify-content: center;
 		align-items: center;
 	}
+
 	.request {
 		border: solid;
 		border-color: #86bb46;
@@ -99,7 +100,7 @@
 	.cutting-edge-solutions {
 		width: 320px;
 		margin: auto;
-		margin-top:20px;
+		margin-top: 20px;
 	}
 }
 
@@ -111,6 +112,7 @@
 		margin-top: 20px;
 		margin-left: 10px;
 	}
+
 	.request {
 		border: solid;
 		border-color: #86bb46;
@@ -128,6 +130,7 @@
 		margin-top: 20px;
 		margin-left: 10px;
 	}
+
 	.request {
 		border: solid;
 		border-color: #86bb46;
@@ -135,6 +138,13 @@
 		width: 150px;
 	}
 }
+
 .nav-hover:hover {
 	color: #86bb46;
+}
+
+@media (min-width: 320px) {
+	.background-image-windmill {
+		width: 99%;
+	}
 }
