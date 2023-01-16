@@ -17,14 +17,11 @@
 .about-us__background {
 	min-height: 192px;
 	object-fit: cover;
-	
 }
 
 .about-us {
 	height: 100%;
 	width: 100%;
-	padding-right: 50px;
-	padding-left: 50px;
 	
 }
 
@@ -75,6 +72,7 @@
 	min-height: 500px;
 	background-position: 50% 50%;
 	width: 99%;
+	max-width: 1900px;
 }
 
 @media (min-width: 320px) {
@@ -246,7 +244,7 @@ max-width: 130px;
 	.about-us__background {
 		position: relative;
 		z-index: 2;
-			height: 600px;
+			height: 520px;
 			object-fit: none;
 			object-position: 95% 50%;
 	
