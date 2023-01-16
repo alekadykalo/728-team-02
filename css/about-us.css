@@ -17,12 +17,15 @@
 .about-us__background {
 	min-height: 192px;
 	object-fit: cover;
+	
 }
 
 .about-us {
 	height: 100%;
 	width: 100%;
-	padding-bottom: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
+	
 }
 
 .about-us__subtitle {
@@ -121,6 +124,9 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-top: -120px;
+	margin-bottom: -70px;
+
 
 }
 .about-us-bottom__button {
@@ -150,13 +156,118 @@ max-width: 130px;
 	z-index: 8;
 	background-color: white;
 	padding-left: 25px;
+
 }
 .about-us-bottom2 {
 	display:flex;
 	flex-direction: column;
-	max-width: 150px;
-}
-}
-@media (min-width: 1350px) {}
+	max-width: 670px;
+	margin-left: -70px;
+	
 
-@media (min-width: 1920px) {}
+}
+
+}
+@media (min-width: 1350px) {
+	.about-us-bottom {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-top: -180px;
+		margin-bottom: -100px;
+	
+	
+	}
+	.about-us-bottom__button {
+	margin: 0px;
+	padding: 10px 20px;
+	max-width: 130px;
+	}
+	.about-us-container {
+		margin-top: 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.about-us__background {
+		position: relative;
+		z-index: 2;
+			height: 520px;
+			object-fit: none;
+			object-position: 95% 50%;
+	
+	}
+	.upper-title {
+		text-align: left;
+	}
+	.about-us{
+		z-index: 8;
+		background-color: white;
+		padding-left: 25px;
+	
+	}
+	.about-us-bottom2 {
+		display:flex;
+		flex-direction: column;
+		max-width: 670px;
+		margin-left: -120px;
+		margin-right: 350px;
+		
+	
+	}
+	
+}
+
+@media (min-width: 1920px) {
+	.about-us-bottom {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-top: -180px;
+		margin-bottom: -100px;
+	
+	
+	}
+	.about-us-bottom__button {
+	margin: 0px;
+	padding: 10px 20px;
+	max-width: 130px;
+	}
+	.about-us-container {
+		margin-top: 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.about-us__background {
+		position: relative;
+		z-index: 2;
+			height: 600px;
+			object-fit: none;
+			object-position: 95% 50%;
+	
+	}
+	.upper-title {
+		text-align: left;
+	}
+	.about-us{
+		z-index: 8;
+		background-color: white;
+		padding-left: 100px;
+		max-width: 900px;
+		padding-right: 200px;
+	}
+	.about-us-bottom2 {
+		display:flex;
+		flex-direction: column;
+		max-width: 670px;
+		margin-left: -120px;
+		margin-right: 350px;
+		
+	
+	}
+}
