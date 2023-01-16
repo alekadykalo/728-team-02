@@ -8,16 +8,14 @@
 
 .about-us-container {
 	margin-top: 50px;
-	display: flex;
+	/*display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 
 .about-us__background {
-	width: 50%;
-	height: 50%;
-	
+	min-height: 192px;
 	object-fit: cover;
 }
 
@@ -34,7 +32,7 @@
 	color: white;
 	font-family: 'Lato', sans-serif;
 	text-align: left;
-	
+
 }
 
 .accordion-item {
@@ -52,32 +50,27 @@
 
 .about-us-bottom {
 	flex-direction: row;
-	position: relative;	
+	position: relative;
 }
 
-.about-us__text-button-container{
+.about-us__text-button-container {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between; 
-	background-color: rgb(134, 187, 70);
-	padding-left: 150px;
-	padding-right: 200px;
-	margin-top: 110px;
-	margin-bottom: 110px;
-	}
-.background-image-greencountries{
+	flex-direction: column;
+	justify-content: space-between;
+	/*background-color: rgb(134, 187, 70);*/
+	margin: 110px auto;
+	padding: 0 20px;
+}
+
+.background-image-greencountries {
 	background-image: url(../img/aboutus/contactus_bg.webp);
 	background-repeat: no-repeat;
-	background-position: center center;
 	position: absolute;
 	background-attachment: fixed;
 	background-size: cover;
-	flex-basis: 100%;
-	max-width: 1500px;
-	width: 100%;
-	padding-top: 350px;
-	padding-bottom: 250px;
+	min-height: 500px;
 	background-position: 50% 50%;
+	width: 99%;
 }
 
 @media (min-width: 320px) {
@@ -86,6 +79,8 @@
 		flex-direction: row;
 		justify-content: center;
 		padding: 120px 40px 30px;
+		overflow-x: auto;
+	
 }
 }
 .about-us__title {
@@ -98,14 +93,56 @@
 
 .about-us-bottom__title {
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: Rubik, sans-serif;
 	font-weight: 700;
 	text-transform: none;
 	text-decoration: none;
+}
 
-	
-
-	
+@media (min-width: 640px) {
+	.about-us-bottom {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	
 }
+.about-us-bottom__button {
+	margin: 0px;
+	padding: 10px 20px;
+	max-width: 130px;
+}
+}
+
+@media (min-width: 960px) {
+.about-us-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+.about-us-bottom__button {
+margin: 0px;
+padding: 10px 20px;
+max-width: 130px;
+}
+.about-us-container {
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.about-us__background {
+	max-height: 92px;
+	object-fit: cover;
+	margin-right: 15px;
+}
+.upper-title {
+	text-align: left;
+}
+}
+@media (min-width: 1350px) {}
+
+@media (min-width: 1920px) {}
